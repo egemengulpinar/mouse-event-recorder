@@ -16,7 +16,7 @@ base = None
 if sys.platform == "win32":
     base = "Console" #Console previous
 
-EXE = Executable(script="event2.py",
+EXE = Executable(script="event.py",
                  base=base,
                  targetName="Mouse Event Recorder.exe",
                  initScript=None,
