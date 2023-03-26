@@ -1,7 +1,5 @@
 # mouse-event-recorder
 
-# Project Title
-
 Mouse event recorder & play with shortcut keys. 
 I prepared this script with just 2 open-soruce libraries, "mouse" and "keyboard". It is safety to record events & actions.
 Project supports event playback speed increase/decrease options as well as you can stop/start whatever you want
