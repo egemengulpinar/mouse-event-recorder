@@ -85,7 +85,7 @@ def decrement_speed():
 if __name__ == "__main__":
     print(20* "#" + "     " + "Mouse Event Recorder" +  "     " + 20* "#")
 
-    print("\n \n Follow these instructions\n Press F1 to start recording \n F2 to stop \n F3 to play\n F4 to loop playback\n F5 to stop looping\n +  to increase speed \n -  to decrease speed\n\n")
+    print("\n \n Follow these instructions\n F1 to start recording \n F2 to stop \n F3 to play\n F4 to loop playback\n F5 to stop looping\n +  to increase speed \n -  to decrease speed\n\n")
     keyboard.on_press_key("f1", lambda _: record_mouse())
     try:
         keyboard.on_press_key("f2", lambda _: stop_recording_mouse())
