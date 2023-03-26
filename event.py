@@ -48,13 +48,9 @@ def stop_loop():
 
 def custom_play(events, speed_factor=1.0):
     cnt = 0
-    last_time = None
     for event in events:
         if stop_playback_event.is_set():
             break
-
-        last_time = event.time
-
         if isinstance(event, mouse.ButtonEvent):
             if event.event_type == mouse.UP:
                 mouse.release(event.button)
