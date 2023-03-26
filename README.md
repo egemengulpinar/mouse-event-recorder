@@ -5,7 +5,7 @@ I prepared this script with just 2 open-soruce libraries, "mouse" and "keyboard"
 Project supports event playback speed increase/decrease options as well as you can stop/start whatever you want
 Project includes that already has been built an **.exe** file in [release](https://github.com/egemengulpinar/mouse-event-recorder/releases/download/main_v1/Mouse.Event.Recorder.zip) to use this script with terminal. 
 
-
+![App Screenshot](https://github.com/egemengulpinar/mouse-event-recorder/blob/main/image/picture_1.jpg) 
 ## Usage
 
 | Description             | Key                                                                |
