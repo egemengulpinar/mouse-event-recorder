@@ -20,7 +20,7 @@ EXE = Executable(script="event.py",
                  base=base,
                  targetName="Mouse Event Recorder.exe",
                  initScript=None,
-                 copyright="LIVAD Technologies"
+                 copyright="Egemen Gulpinar"
                  )
 
 
@@ -28,9 +28,9 @@ EXE = Executable(script="event.py",
 
 
 setup(
-    name = "Livad Technologies Ltd.",
+    name = "Mouse Event Recorder",
     version = "1.0",
-    description = "LIVAD Sync",
+    description = "Created by Egemen Gulpinar",
     options = {"build_exe": build_exe_options},
     executables = [EXE]
 
