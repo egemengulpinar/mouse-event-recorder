@@ -1,3 +1,10 @@
+########################################
+##                                    ##
+##      Author : Egemen Gulpinar      ##
+##  Mail : egemengulpinar@gmail.com   ##
+##     github.com/egemengulpinar      ##
+##                                    ##
+########################################
 import threading
 import mouse
 import keyboard
